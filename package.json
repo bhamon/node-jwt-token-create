@@ -1,0 +1,21 @@
+{
+  "name": "jwt-token-create",
+  "version": "1.0.0",
+  "description": "CLI tool to create JWT tokens from arbitrary keys.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhamon/node-jwt-token-create.git"
+  },
+  "author": "Benjamin HAMON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhamon/node-jwt-token-create/issues"
+  },
+  "homepage": "https://github.com/bhamon/node-jwt-token-create#readme",
+  "dependencies": {
+    "joi": "^10.3.0",
+    "jsonwebtoken": "^7.3.0",
+    "minimist": "^1.2.0"
+  }
+}
